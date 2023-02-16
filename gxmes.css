@@ -1,0 +1,16 @@
+.gxmes-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gxmes-link {
+  height: var(--dl-size-size-large);
+  font-size: 200px;
+  max-height: var(--dl-size-size-maxwidth);
+  min-height: var(--dl-size-size-maxwidth);
+  text-decoration: underline;
+}

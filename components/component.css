@@ -1,0 +1,85 @@
+.component-container {
+  width: 514px;
+  height: 96px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component-navlink {
+  top: 3px;
+  right: 86.015625px;
+  position: absolute;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+}
+.component-text02 {
+  top: 6px;
+  left: 180px;
+  position: absolute;
+  font-family: Comic Sans MS;
+}
+.component-text03 {
+  top: 1px;
+  left: 113px;
+  position: absolute;
+  font-family: Comic Sans MS;
+}
+.component-navlink1 {
+  top: 0px;
+  left: 0px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  position: absolute;
+  font-size: 19px;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+}
+.component-text07 {
+  top: 2px;
+  right: 0px;
+  position: absolute;
+  font-family: Comic Sans MS;
+  text-decoration: underline;
+}
+.component-root-class-name1 {
+  left: 435px;
+  bottom: -228px;
+  position: absolute;
+}
+.component-root-class-name2 {
+  left: 435px;
+  bottom: -228px;
+  position: absolute;
+}
+.component-root-class-name3 {
+  right: 119px;
+  bottom: -194px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .component-navlink {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-navlink1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-text07 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .component-text08 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
